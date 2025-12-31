@@ -723,7 +723,7 @@ header .navbar ul li a:hover {
   object-fit: cover;
   position: relative;
   width: 100%;
-  height: auto;
+  height: 220px;
   display: block;
 }
 
