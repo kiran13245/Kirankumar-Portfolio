@@ -1,0 +1,202 @@
+  h1 {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  nav {
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
+
+  li {
+    display: inline;
+    cursor: pointer;
+  }
+
+  ul {
+    padding: 2px;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+
+  h2 {
+    color: blue;
+  }
+
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav ul li {
+    position: relative;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 15px;
+  }
+
+  .container img {
+    width: 600px;
+    border-radius: 20px;
+  }
+
+  .text {
+    margin: 20px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .overview,
+  .Vision,
+  .points {
+    margin: 20px;
+  }
+
+  .points {
+    font-size: 20px;
+  }
+
+  .gallery-container {
+    display: flex;
+    gap: 30px;
+  }
+
+  .gallery {
+    flex: 1;
+  }
+
+  .photo-grid,
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-left: 20px;
+  }
+
+  .video-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  .video-grid video {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .gallery img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 1s ease;
+    cursor: pointer;
+  }
+
+  .photo-grid img:hover {
+    transform: scale(1.05);
+  }
+
+  nav ul li a:hover {
+    background-color: red;
+  }
+
+  nav ul li ul {
+    position: absolute;
+    background: white;
+    min-width: 150px;
+    display: none;
+    flex-direction: column;
+    z-index: 1000;
+  }
+
+  nav ul li ul li a {
+    color: black;
+    padding: 10px;
+  }
+
+  nav ul li ul li a:hover {
+    background-color: gray
+  }
+
+
+  nav ul li:hover ul {
+    display: flex;
+  }
+
+  .contactus {
+    background-color: violet;
+    padding: 20px;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .contact-section {
+    max-width: 500px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .contact-text {
+    flex: 1;
+    line-height: 1.6;
+  }
+
+  .form-table {
+    float: right;
+    margin-right: 50px;
+  }
+
+
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 35%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .contact-form table {
+    width: 100%;
+  }
+
+  .contact-form td {
+    padding: 8px;
+  }
