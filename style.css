@@ -720,10 +720,10 @@ header .navbar ul li a:hover {
 }
 
 .education .box-container .box img {
-  object-fit: cover;
+  object-fit: contain;
   position: relative;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .education .box-container .box .content {
@@ -771,11 +771,13 @@ body.dark .education h4 {
 
   .education .box-container .box .image {
     width: 100%;
-    height: 25rem;
+    height: auto;
   }
 
   .education .box-container .box img {
-    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: contain;
   }
 
   .education .box-container .box .content {
@@ -785,13 +787,6 @@ body.dark .education h4 {
     padding: 1rem;
     flex-wrap: wrap;
     flex: 0;
-  }
-
-  .education .btns {
-    margin-top: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    flex-wrap: wrap;
   }
 }
 
