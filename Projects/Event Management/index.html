@@ -4,64 +4,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Event Managment</title>
-  <link rel="icon" href="Images/logo.avif">
+  <title>Event Management</title>
+  <link rel="icon" href="Images/logo.jpg">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="top">
 
   <header>
     <div class="logo">
-      <img src="Images/logo.avif" alt="Logo">
+      <img src="Images/logo.jpg" alt="Logo">
     </div>
+
+    <div class="menu-toggle">☰</div>
 
     <nav>
       <ul>
-        <li><a href="" id="top">Home</a></li>
-        <li><a href="#About Us">About Us</a></li>
-        <li><a href="#Our Services">Our Service</a></li>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#our-services">Our Services</a></li>
 
-        <div class="dropdown">
-          <li><a href="#">Our Gallery▾</a></li>
+        <li class="dropdown">
+          <a href="#">Our Gallery ▾</a>
+
           <div class="dropdown-content">
-            <a href="#Birthday Gallery">Birthday Gallery</a>
-            <a href="#Wedding Gallery">Wedding Gallery</a>
-            <a href="#Babyshower Gallery">Babyshower Gallery</a>
-            <a href="#Corporate Event Gallery">Corporate Event Gallery</a>
-            <a href="#Photography Gallery">Photography Gallery</a>
-            <a href="#Catering Gallery">Catering Gallery</a>
-            <a href="#Makeup Artist Gallery">Makeup Artist Gallery</a>
-            <a href="#Djs Gallery">Djs Gallery</a>
+            <a href="#Birthday-Gallery">Birthday Gallery</a>
+            <a href="#Wedding-Gallery">Wedding Gallery</a>
+            <a href="#Babyshower-Gallery">Babyshower Gallery</a>
+            <a href="#Corporate-Event-Gallery">Corporate Event Gallery</a>
+            <a href="#Photography-Gallery">Photography Gallery</a>
+            <a href="#Catering-Gallery">Catering Gallery</a>
+            <a href="#Makeup-Artist-Gallery">Makeup Artist Gallery</a>
+            <a href="#Djs-Gallery">Djs Gallery</a>
           </div>
-        </div>
+        </li>
 
-        <li><a href="#Contact Us">Contact Us</a></li>
+        <li><a href="#Contact-Us">Contact Us</a></li>
       </ul>
     </nav>
 
+
     <div class="contact-info">
-      📞 7871330205 &nbsp; | &nbsp; ✉ kiran24@gmail.com
+      📞 7871330205 &nbsp; | &nbsp; ✉ kiran249902@gmail.com
     </div>
   </header>
 
   <section class="hero">
     <h2>Welcome to</h2>
     <h1>Tension Free Zone</h1>
-    <p>All type of events done here as per as your budget</p>
-    <button>Call Us</button>
-  </section>
-  <hr>
-  <hr>
-  <section class="hero2" id="About Us">
-    <h1>About Us</h1>
+    <p>All types of events are organized here as per your budget</p>
+    <button id="callBtn">Call Us</button>
   </section>
 
-  <section class="about">
+
+
+  <section class="about" id="about-us">
+    <h1 class="about-title">About Us</h1>
     <div class="about-container">
       <div class="card">
 
-        <img src="Images/logo.avif" alt="logo.png" class="logo2">
+        <img src="Images/logo.jpg" alt="logo.png" class="logo2">
         <h2>Event Management</h2>
         <p class="contact">
           📞 7871330205<br>
@@ -73,9 +77,8 @@
         <h3>We’re</h3>
         <h2>Event Planner Since 2019</h2>
         <p>
-          Tamsan Event Management established in 2019, we have completed more than 500+ weddings and other events
+          Event Management established in 2019, we have completed more than 500+ weddings and other events
           successfully. We have well experienced team members to handle your event and get it done on a successful day.
-          established in to handle your event and get it done on a successful day.
         </p>
         <p>
           We are specialising in Wedding Reception planning and decoration, Birthday party organise and decoration,
@@ -93,16 +96,15 @@
     </div>
   </section>
 
-  <hr>
-  <hr>
 
-  <div class="service-title" id="Our Services">Our Services</div>
 
-  <div class="service-section" id="Birthday Gallery">
-    <img src="Images/Birthday party outer img.jpg" alt="">
+  <h1 class="service-title" id="our-services">Our Services</h1>
+
+  <div class="service-section" id="Birthday-Gallery">
+    <img src="Images/Birthday party img.jpg" alt="Birthday party" class="gallery-img fade-up">
     <div class="service-content">
       <h2>Birthday Parties</h2>
-      <h3>Celebrate Life’s Milestones with Tamsan Event Management’s Unforgettable Birthday Parties!</h3>
+      <h3>Celebrate Life’s Milestones with Event Management’s Unforgettable Birthday Parties!</h3>
       <p>We understand that birthdays are more than just a date on the calendar – they’re moments to be cherished and
         celebrated. Whether it’s a sweet sixteen, a milestone birthday, or a themed celebration for your little one, our
         team is dedicated to turning your vision into a reality.</p>
@@ -111,25 +113,25 @@
   </div>
 
 
-  <div class="wedding-section" id="Wedding Gallery">
+  <div class="wedding-section" id="Wedding-Gallery">
     <div class="wedding-content">
       <h2>Wedding</h2>
-      <h3>Embark on Your Journey of Forever with Tamsan Event Management – Crafting Timeless Weddings</h3>
-      <p>Your wedding day is a chapter that marks the beginning of a beautiful lifelong journey, and at Tamsan Event
+      <h3>Embark on Your Journey of Forever with Event Management – Crafting Timeless Weddings</h3>
+      <p>Your wedding day is a chapter that marks the beginning of a beautiful lifelong journey, and at Event
         Management, we believe in turning that chapter into a storybook of unforgettable moments. With our expertise and
         passion for creating magical experiences, we are committed to making your wedding day a celebration of love,
         joy, and perfection..</p>
       <button>VIEW WEDDING GALLERY→</button>
     </div>
-    <img src="Images/wedding gallery outer img.jpg" alt="">
+    <img src="Images/Wedding gallery img.jpg" alt="wedding gallery " class="gallery-img fade-up">
   </div>
 
-  <div class="Babyshower-section" id="Babyshower Gallery">
-    <img src="Images/babyshower outer img.jpg" alt="">
+  <div class="Babyshower-section" id="Babyshower-Gallery">
+    <img src="Images/Babyshower img.jpg" alt="babyshower " class="gallery-img fade-up">
     <div class="Babyshower-content">
       <h2>Babyshower</h2>
       <h3>Celebrating the Joy of New Beginnings with Magical Baby Showers</h3>
-      <p>At Tamsan Event Management, we understand that corporate events are not just gatherings; they are strategic
+      <p>At Event Management, we understand that corporate events are not just gatherings; they are strategic
         moments that shape the narrative of your business. With a commitment to professionalism, innovation, and
         seamless execution, we specialize in curating corporate events that leave a lasting impression, foster
         connections, and drive success for your organization.</p>
@@ -137,21 +139,21 @@
     </div>
   </div>
 
-  <div class="CorporateEvents-section" id="Corporate Event Gallery">
+  <div class="CorporateEvents-section" id="Corporate-Event-Gallery">
     <div class="CorporateEvents-content">
       <h2>Corporate Events</h2>
-      <h3>Elevate Your Corporate Experience with Tamsan Event Management: Crafting Success Beyond Business</h3>
-      <p>At Tamsan Event Management, we understand that corporate events are not just gatherings; they are strategic
+      <h3>Elevate Your Corporate Experience with Event Management: Crafting Success Beyond Business</h3>
+      <p>At Event Management, we understand that corporate events are not just gatherings; they are strategic
         moments that shape the narrative of your business. With a commitment to professionalism, innovation, and
         seamless execution, we specialize in curating corporate events that leave a lasting impression, foster
         connections, and drive success for your organization.</p>
       <button>VIEW CORPORATE EVENTS GALLERY→</button>
     </div>
-    <img src="Images/corporate-event outer img.jpg" alt="">
+    <img src="Images/Corporate event img.jpg" alt="corporate event " class="gallery-img fade-up">
   </div>
 
-  <div class="Photography-section" id="Photography Gallery">
-    <img src="Images/photography outer img.jpg" alt="">
+  <div class="Photography-section" id="Photography-Gallery">
+    <img src="Images/Photography img.jpg" alt="photography " class="gallery-img fade-up">
     <div class="Photography-content">
       <h2>Photography</h2>
       <h3>Capturing Moments, Creating Memories</h3>
@@ -162,26 +164,26 @@
     </div>
   </div>
 
-  <div class="Catering-section" id="Catering Gallery">
+  <div class="Catering-section" id="Catering-Gallery">
     <div class="Catering-content">
       <h2>Catering</h2>
-      <h3>Tantalize Your Tastebuds with Tamsan Event Management’s Culinary Excellence</h3>
-      <p>At Tamsan Event Management, we believe that exceptional events are not only about captivating visuals and
+      <h3>Tantalize Your Tastebuds with Event Management’s Culinary Excellence</h3>
+      <p>At Event Management, we believe that exceptional events are not only about captivating visuals and
         seamless organization but also about a culinary experience that leaves a lasting impression. Our catering
         services go beyond just serving food; we craft menus that cater to diverse palates, ensuring that every bite is
         a delight. Whether it’s an intimate gathering, a corporate event, or a grand celebration, our culinary experts
         are dedicated to elevating your event with flavors that are as memorable as the occasion itself.</p>
       <button>VIEW CATERING GALLERY→</button>
     </div>
-    <img src="Images/catering outer img.jpg" alt="">
+    <img src="Images/Catering img.jpg" alt="catering " class="gallery-img fade-up">
   </div>
 
-  <div class="MakeupArtist-section" id="Makeup Artist Gallery">
-    <img src="Images/makeup-artist2 outer img.jpg" alt="">
+  <div class="MakeupArtist-section" id="Makeup-Artist-Gallery">
+    <img src="Images/Makeup artist img.jpg" alt="makeup artist2 " class="gallery-img fade-up">
     <div class="MakeupArtist-content">
       <h2>Makeup Artist</h2>
       <h3>Unveiling Beauty, Empowering Confidence – Our Makeup Artistry Services</h3>
-      <p>Beauty is not just about appearance; it’s about the confidence that radiates from within. At Tamsan Event
+      <p>Beauty is not just about appearance; it’s about the confidence that radiates from within. At Event
         Management, our makeup artistry services are more than just enhancing features; they’re about creating a
         transformative experience that empowers and uplifts. Whether it’s for a special event, a photoshoot, or a
         personal makeover, our talented makeup artists are dedicated to bringing out the best version of you, one
@@ -190,25 +192,25 @@
     </div>
   </div>
 
-  <div class="DJs-section" id="Djs Gallery">
+  <div class="DJs-section" id="Djs-Gallery">
     <div class="DJs-content">
       <h2>DJs</h2>
       <h3>Setting the Beat for Unforgettable Moments – Our DJ Services</h3>
-      <p>When the music starts, the atmosphere transforms, and the celebration truly begins. At Tamsan Event Management,
+      <p>When the music starts, the atmosphere transforms, and the celebration truly begins. At Event Management,
         our DJ services go beyond playing songs; we curate experiences, set the mood, and ensure that every beat
         resonates with the energy of your event. Whether it’s a wedding, corporate gathering, or a lively party, our
         skilled DJs are here to turn the volume up on your special moments.</p>
       <button>VIEW DJS GALLERY→</button>
     </div>
-    <img src="Images/DJs outer img.jpg" alt="">
+    <img src="Images/DJs img.jpg" alt="DJs " class="gallery-img fade-up">
   </div>
   <div class="review">
     <section class="reviews-section">
       <h3 class="subtitle">Reviews</h3>
-      <h2 class="title">What peoples say about us</h2>
+      <h2 class="title">What people say about us</h2>
 
       <div class="review-summary">
-        <img src="profile.jpg" alt="profile" class="profile">
+        <img src="Images/logo.jpg" alt="profile" class="profile">
         <div>
           <h4>Event management</h4>
           <p class="rating">5.0 ⭐⭐⭐⭐⭐</p>
@@ -234,7 +236,7 @@
             <p>2 years ago</p>
           </div>
           <p class="stars">⭐⭐⭐⭐⭐</p>
-          <p>I recently had the pleasure of hiring Tasman Event management Company to organize our event.</p>
+          <p>I recently had the pleasure of hiring Event management Company to organize our event.</p>
         </div>
 
         <div class="review-card">
@@ -247,19 +249,18 @@
             our entire event.</p>
         </div>
       </div>
-  </div>
-  </section>
+    </section>
   </div>
 
-  <form class="contact-form" id="Contact Us">
+<form class="contact-form" id="Contact-Us" autocomplete="off">
     <h2>Get in Touch</h2>
     <h1>Tell us about your dream</h1>
 
-    <input type="text" placeholder="Name">
-    <input type="text" placeholder="Mobile Number" required>
-    <input type="email" placeholder="Email">
-    <input type="text" placeholder="Event Date (DD/MM/YYYY)" required>
-    <textarea placeholder="Message"></textarea>
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="text" name="mobile" placeholder="Mobile Number" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="date" placeholder="Event Date (DD/MM/YYYY)" required>
+    <textarea name="message" placeholder="Message"></textarea>
 
     <button type="submit">Send</button>
   </form>
@@ -268,17 +269,23 @@
     <div class="left">
       <p class="copyright">© Copyright 2025, Event Management.</p>
     </div>
-    <div class="right">
-      <p class="address">Address: No. 3/53, Nethaji Nagar, Ramapuram, Chennai - 600089.</p>
-      <div class="social-links">
-      </div>
 
-      <div class="top">
-    <a href="#"> <img src="Images/back to top.png" alt="" width="20px" height="20px"></a>
-  </div>
+    <div class="right">
+      <p class="address">
+        Address: No.26,sakthi Nagar,poonamallee Chennai.
+      </p>
+    </div>
+
   </footer>
 
-  
+  <!-- Back to Top Button -->
+  <a href="#top" class="top"
+    style="display:none;position:fixed;bottom:30px;right:30px;background:gold;color:black;padding:10px 15px;border-radius:50%;font-size:18px;text-decoration:none;z-index:1000;">⬆</a>
+
+
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>
